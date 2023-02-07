@@ -4,15 +4,15 @@ body {
 
 .display {
     text-align: right;
-    font-size: 20px;
+    font-size: 30px;
     background-color: transparent;
     color: #fff;
-    padding: 15px;
-    width: 200px;
+    padding: 3px;
+    width: 220px;
 }
 
 button {
-    padding: 10px;
+    padding: 5px;
     width: 50px;
     height: 50px;
     margin-top: 8px;
@@ -30,15 +30,55 @@ button {
     color: #000;
 }
 
+#r1-1:hover {
+    cursor: pointer;
+    background-color: red;
+}
+#r1-1:active {
+    background-color: blue;
+}
+
 #r1-2 {
     background-color: #c3c3c3;
     color: #000;
+}
+
+#r1-2:hover {
+    cursor: pointer;
+    background-color: red;
+}
+#r1-2:active {
+    background-color: blue;
 }
 
 #r5-1 {
     width: 113px;
 }
 
+#r5-1:hover {
+    cursor: pointer;
+    background-color: red;
+}
+#r5-1:active {
+    background-color: blue;
+}
+
 #r1-3, #r2-4, #r3-4, #r4-4, #r5-3 {
     background-color: #ff9100;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: red;
+}
+button:active {
+    background-color: blue;
+}
+
+#r1-3:hover, #r2-4:hover, #r3-4:hover, #r4-4:hover, #r5-3:hover {
+    cursor: pointer;
+    background-color: red;
+}
+#r1-3:active, #r2-4:active, #r3-4:active, #r4-4:active, #r5-3:active {
+    background-color: blue;
 }
