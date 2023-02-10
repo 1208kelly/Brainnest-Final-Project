@@ -15,3 +15,8 @@ function percent() {
     value = value / 100;
     document.getElementById("output").innerHTML = value;
 }
+
+function numberDisplay(value) {
+    removeZero()
+    document.getElementById("output").innerHTML += value;
+}
