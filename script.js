@@ -9,3 +9,9 @@ function removeZero() {
          document.getElementById("output").innerHTML = value;
     }
 }
+
+function percent() {
+    var value = document.getElementById("output").innerHTML;
+    value = value / 100;
+    document.getElementById("output").innerHTML = value;
+}
