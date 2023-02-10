@@ -28,13 +28,17 @@ body {
 
 .display {
     text-align: right;
-    font-size: 30px;
+    font-size: 42px;
     background-color: transparent;
     color: #fff;
     font-family: "Helvetica";
     font-weight: 100;
     padding: 3px;
     width: 220px;
+}
+
+#output-display {
+    margin-block-end: 3px;
 }
 
 button {
