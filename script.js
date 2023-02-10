@@ -22,8 +22,8 @@ function numberDisplay(myvalue) {
 }
 
 function solve() {
-   removeZero()
-   var equation = document.getElementById("output-display").innerHTML;
-   var solved = eval(equation);
-   document.getElementById('output-display').innerHTML = solved;
-}
+    removeZero()
+    var equation = document.getElementById("output-display").innerHTML;
+    var solved = eval(equation);
+    document.getElementById('output-display').innerHTML = solved;
+    }
