@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url(./fonts/Helvetica.ttf) format('truetype');
+    font-weight: 400;
+}
+
+/*------------ Body and Buttons ------------*/
+
 body {
     background-color: black;
 }
@@ -19,6 +27,7 @@ button {
     margin-right: 8px;
     background-color: #4a4a4a;
     color: #fff;
+    font-family: "Helvetica";
     font-size: 20px;
     border-radius: 50px;
     border: none;
