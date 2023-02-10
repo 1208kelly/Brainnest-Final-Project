@@ -10,6 +10,12 @@ body {
     background-color: black;
 }
 
+#phone {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 318px;
+}
+
 .display {
     text-align: right;
     font-size: 30px;
