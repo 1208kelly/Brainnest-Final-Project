@@ -14,7 +14,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    padding: 110px 0 35px;
+    padding: 90px 0 45px;
     background-color: #000;
     display: flex;
     width: 280px;
@@ -28,7 +28,7 @@ body {
 
 .display {
     text-align: right;
-    font-size: 42px;
+    font-size: 56px;
     background-color: transparent;
     color: #fff;
     font-family: "Helvetica";
