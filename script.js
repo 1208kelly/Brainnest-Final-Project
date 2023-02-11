@@ -5,7 +5,7 @@ function clearInput() {
 
 // Function that will remove the 0 from the begining of input
 function removeZero() {
-    var value = document.getElementById("output-display").innerHTML;
+    let value = document.getElementById("output-display").innerHTML;
     if (value == "0") {
          value = " "
          document.getElementById("output-display").innerHTML = value;
@@ -14,7 +14,7 @@ function removeZero() {
 
 // Function that displays percenatge
 function percent() {
-    var value = document.getElementById("output-display").innerHTML;
+    let value = document.getElementById("output-display").innerHTML;
     value = value / 100;
     document.getElementById("output-display").innerHTML = value;
 }
@@ -28,7 +28,7 @@ function numberDisplay(myvalue) {
 // Function that solves the input when = is pressed
 function solve() {
     removeZero()
-    var equation = document.getElementById("output-display").innerHTML;
-    var solved = eval(equation);
+    let equation = document.getElementById("output-display").innerHTML;
+    let solved = eval(equation);
     document.getElementById('output-display').innerHTML = solved;
     }
